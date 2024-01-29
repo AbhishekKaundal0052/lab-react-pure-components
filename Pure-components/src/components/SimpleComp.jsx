@@ -25,8 +25,9 @@ export default class SimpleComp extends Component {
   render() {
     return (
       <div>
+        <h1>Simple Component</h1>
         {console.log('this is simple component')}
-        {this.state.count}
+        <p>{this.state.count}</p>
         <button onClick={this.incre}>Increment</button>
         <button onClick={this.toggle}>Toggle</button>
       </div>

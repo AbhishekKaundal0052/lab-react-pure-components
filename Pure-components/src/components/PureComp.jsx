@@ -25,8 +25,9 @@ export default class PureComp extends PureComponent {
   render() {
     return (
       <div>
+        <h1>Pure Component</h1>
         {console.log('this is Pure component')}
-        {this.state.count}
+        <p>{this.state.count}</p>
         <button onClick={this.incre}>Increment</button>
         <button onClick={this.toggle}>Toggle</button>
       </div>
